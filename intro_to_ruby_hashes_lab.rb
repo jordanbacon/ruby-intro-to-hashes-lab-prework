@@ -8,11 +8,9 @@ end
 
 def monopoly
 	monopoly = {}
-
+monopoly[:railroads => {}]
 end
 
-    describe "#monopoly" do
-      it "adds a key-value pair to the monopoly hash. The key should be :railroads and the value should be an empty hash" do
 def monopoly_with_second_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 	
